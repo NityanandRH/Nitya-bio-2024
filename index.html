@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatiable" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nityananda R H - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <img src="images/logo.png" class="logo"> 
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Method's Engineer</p>
+                <h1>Hi, I'm <span>Nityananda</span><br> from India</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- ----------- About ------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img_bio.png" alt="bio">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>With 4 years of experience, I specialize in delivering robust automation solutions using Python, 
+                        enhanced by my expertise in machine learning and computer vision. 
+                        I automate data processing tasks such as extraction, transformation, and loading (ETL), 
+                        and employ efficient web scraping for data collection and analysis. My skills extend to task scheduling, 
+                        automating routine operations, and system integration to ensure seamless data flow across different platforms. 
+                        Additionally, I leverage machine learning for predictive analytics and computer vision for advanced image recognition tasks.
+                        My proficiency with JIRA for project management, GitHub for version control, and AWS for cloud-based solutions further enhances 
+                        the scalability and reliability of your automation processes. 
+                        Let's streamline your workflows and achieve optimal efficiency together.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">  
+                        <ul>
+                            <li><span>Developer</span><br>Designing web apps</li>
+                            <li><span>Data Scientist</span><br>Training Models</li>
+                            <li><span>Automation</span><br>Simplifying tedious tasks</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Methods Engineer-II at Pratt & Whitney</li>
+                            <li><span>2021-2023</span><br>Software Engineer at Quest Globel</li>
+                            <li><span>2020-2021</span><br>ML intern at Snapbizz Cloudtech Pvt Ltd</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-2020</span><br>M.Tech from BMSCE Bengaluru</li>
+                            <li><span>2013-2017</span><br>B.Tech from BVBCET Hubli</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------services--------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>I provide comprehensive web development services, specializing in creating responsive, dynamic websites using HTML, CSS, and JavaScript with Vue.js on the frontend, and Python Flask for the backend. My expertise ensures seamless integration, robust functionality, and a user-friendly experience tailored to your needs. 
+                        Let's bring your vision to life with cutting-edge technology and design.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Machine learning</h2>
+                    <p>I offer machine learning services, specializing in computer vision and deep neural networks. Leveraging cutting-edge algorithms and techniques, I develop intelligent systems capable of sophisticated image recognition and predictive modeling. 
+                        Let's transform your data into actionable insights and innovative solutions.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Automation</h2>
+                    <p>I provide automation solutions using Python for various use cases, from data processing and web scraping to task scheduling and system integration. My expertise ensures efficient, reliable, and scalable automation, streamlining your workflows and boosting productivity. 
+                        Let's automate your tasks for optimal performance and growth.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------portfolio------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/project1.png" >
+                    <div class="layer">
+                        <h3>Car counter</h3>
+                        <p>Computer vision based ML model able detect and car and count the number that passes in particuler lane</p>
+                        <a href="">Click</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project2.png" >
+                    <div class="layer">
+                        <h3>File Encryptor</h3>
+                        <p>Desktop application to secure encryption and decryption of your fevorate files</p>
+                        <a href="">Click</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project3.png">
+                    <div class="layer">
+                        <h3>Water Potabality Detection</h3>
+                        <p>Supervised machine learning based end to end project used to predict water potability based on some inputs</p>
+                        <a href="">Click</a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------------------contact--------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>nityanandhiremath7@gmail.com</p>
+		    <a href="https://medium.com/@nityanandhiremath7">Medium</a>
+                    <a href="https://github.com/NityanandRH">Github</a>
+                    <p>+918073096318</p>
+                    <div class="social-icons">
+                        <a href=""><i></i></a>
+                        <a href=""><i></i></a>
+                        <a href=""><i></i></a>
+                        <a href=""><i></i></a>
+                    </div>
+                    <a href="images/Nityananda_CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Nityanand R H</p>
+        </div>
+
+    </div>
+<!-- -------------------Script--------------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzxAd_cNb7JKE_CLnJj4iK6VWTrblOOgE_mQuH0kG2bW47IxVA58MQBQHKh8Z1Hw2KmUw/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
